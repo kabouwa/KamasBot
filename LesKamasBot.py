@@ -56,7 +56,7 @@ def printf(message):
 """TOKEN OF BOT & AND PERMISSION WHICH'S NEED & BOT CREATION"""
 ## CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
 TOKEN = os.getenv("DISCORD_TOKEN")
-CHANNEL_ID = os.getenv("CHANNEL_ID")
+CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
 LAST_PRICES = []
 
 intents = disc.Intents.default()
