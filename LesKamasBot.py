@@ -70,7 +70,7 @@ bot = cmd.Bot(command_prefix="!", intents=intents)
 @bot.event
 async def on_ready():
     now = str(datetime.now().date()) + " " + str(datetime.now().time())[:8]
-    print(f"\033[1;30m{now}\033[34m INFO     \033[35mLogged in as \033[32m{bot.user}\033[0m")
+    printf(f"Logged in as {bot.user}")
     check_prices.start()
     
     
