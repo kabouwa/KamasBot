@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 from dotenv import load_dotenv
 load_dotenv()
-#LAST U PDATE
+#LAST UPDATE
 
 ##############################################
 ###########----LOGIC FUNCTIONS----############
